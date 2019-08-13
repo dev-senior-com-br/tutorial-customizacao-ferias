@@ -9,6 +9,7 @@
         <jersey-client-version>2.29</jersey-client-version>
         <jersey-common-version>2.29</jersey-common-version>
         <jersey-media-json-jackson-version>2.29</jersey-media-json-jackson-version>
+        <jersey-media-moxy-version>2.13</jersey-media-moxy-version>
     </properties>
 
     <parent>
@@ -36,6 +37,11 @@
             <groupId>org.glassfish.jersey.media</groupId>
             <artifactId>jersey-media-json-jackson</artifactId>
             <version>${jersey-media-json-jackson-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jersey.media</groupId>
+            <artifactId>jersey-media-moxy</artifactId>
+            <version>${jersey-media-moxy-version}</version>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.inject</groupId>
