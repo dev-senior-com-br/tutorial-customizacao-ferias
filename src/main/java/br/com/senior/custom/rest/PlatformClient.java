@@ -67,13 +67,23 @@ public class PlatformClient {
         GetVacationPolicyByEmployeeInput getVacationPolicyByEmployeeInput = new GetVacationPolicyByEmployeeInput();
         getVacationPolicyByEmployeeInput.employeeId = employeeId;
 
+        System.out.println("*****PlatformClient -> getVacationPolicyByEmployeeId -> validando employee: "+getVacationPolicyByEmployeeInput.employeeId);
+
         WebTarget target = getClient();
+        System.out.println("******iniciado web target");
         //Form form = new Form();
         //form.param("employeeId", getVacationPolicyByEmployeeInput.employeeId);
         Invocation.Builder builder = target.path(VACATION_MANAGEMENT_GETVACATIONPOLICYBYEMPLOYEE_QUERY_PATH).request(MediaType.APPLICATION_JSON);
+        System.out.println("******Invocation.Builder executado");
         Response response = builder.post(Entity.entity(getVacationPolicyByEmployeeInput, MediaType.APPLICATION_JSON));
+        System.out.println("******executado builder.post com o response: "+response);
         //Response response = target.request(MediaType.APPLICATION_JSON).post(Entity.form(form));
-        return response.readEntity(GetVacationPolicyByEmployeeOutput.class);
+        System.out.println("******Iniciando retorno");
+        try {
+            return response.readEntity(GetVacationPolicyByEmployeeOutput.class);
+        }catch (Exception e){
+            System.out.println(e.getMessage());
+        }
     }
 
     /**
