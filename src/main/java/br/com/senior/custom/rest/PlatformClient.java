@@ -116,7 +116,10 @@ public class PlatformClient {
             System.out.println("*****builder criado");
             System.out.println("******criando response...");
             Response response = builder.post(Entity.entity(loginWithKeyInput, MediaType.APPLICATION_JSON));
+            System.out.printf("*******response criado: "+response);
+            System.out.println("******criando output...");
             LoginWithKeyOutput output = response.readEntity(LoginWithKeyOutput.class);
+            System.out.println("*****output criado: "+output);
             try {
                 JsonToken jsonToken = new ObjectMapper().readValue(output.jsonToken, JsonToken.class);
                 this.token = Optional.of(jsonToken);
