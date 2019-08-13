@@ -99,14 +99,22 @@ public class PlatformClient {
      * Utiliza as variáveis de ambiente TENANT, ACCESS_KEY e SECRET para fazer o login
      */
     private void login() {
+        System.out.println("*****verificando se o tken está presnete ou expirado");
         if (!token.isPresent() || token.get().isExpired()) {
+            System.out.println("******token expirado, criando nova sessão");
             LoginWithKeyInput loginWithKeyInput = new LoginWithKeyInput();
             loginWithKeyInput.tenantName = TENANT;
             loginWithKeyInput.accessKey = ACCESS_KEY;
             loginWithKeyInput.secret = SECRET;
+            System.out.println("******criado loginWithKeyInput com TENANT= "+loginWithKeyInput.tenantName+"ACCESS_KEY= "+loginWithKeyInput.accessKey+" e SECRET=" + loginWithKeyInput.secret);
 
             WebTarget target = getClient();
+            System.out.println("*******criado target");
+
+            System.out.println("*****criando builder com o path: "+LOGIN_WITH_KEY_PATH);
             Invocation.Builder builder = target.path(LOGIN_WITH_KEY_PATH).request(MediaType.APPLICATION_JSON);
+            System.out.println("*****builder criado");
+            System.out.println("******criando response...");
             Response response = builder.post(Entity.entity(loginWithKeyInput, MediaType.APPLICATION_JSON));
             LoginWithKeyOutput output = response.readEntity(LoginWithKeyOutput.class);
             try {
