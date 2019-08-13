@@ -61,7 +61,8 @@ public class PlatformClient {
     }
 
     public GetVacationPolicyByEmployeeOutput getVacationPolicyByEmployeeId(String employeeId) {
-        login();
+        //TODO verificar se é necessário fazer o login
+        //login();
         GetVacationPolicyByEmployeeInput getVacationPolicyByEmployeeInput = new GetVacationPolicyByEmployeeInput();
         getVacationPolicyByEmployeeInput.employeeId = employeeId;
 
