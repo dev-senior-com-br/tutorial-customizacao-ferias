@@ -83,6 +83,7 @@ public class PlatformClient {
             return response.readEntity(GetVacationPolicyByEmployeeOutput.class);
         }catch (Exception e){
             System.out.println(e.getMessage());
+            return null;
         }
     }
 
