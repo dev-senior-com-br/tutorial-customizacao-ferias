@@ -121,8 +121,12 @@ public class PlatformClient {
             LoginWithKeyOutput output = response.readEntity(LoginWithKeyOutput.class);
             System.out.println("*****output criado: "+output);
             try {
+                System.out.println("******criando token...");
                 JsonToken jsonToken = new ObjectMapper().readValue(output.jsonToken, JsonToken.class);
+                System.out.println("*****token criado: "+jsonToken.getAccessToken());
+                System.out.println("*******setando token...");
                 this.token = Optional.of(jsonToken);
+                System.out.println("*******token criado: "+this.token.get());
             } catch (IOException e) {
                 e.printStackTrace();
             }
