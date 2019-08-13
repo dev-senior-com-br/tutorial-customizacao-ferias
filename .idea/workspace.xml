@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c466f1b-ea8b-4b1c-8094-68104f07e86c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_11.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customizacao-ferias-autoglass.iml" beforeDir="false" afterPath="$PROJECT_DIR$/customizacao-ferias-autoglass.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/rest/PlatformClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/rest/PlatformClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacation/ValidateVacationScheduleCustomHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacation/ValidateVacationScheduleCustomHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationPolicy/CustomDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationPolicy/CustomDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationPolicy/VacationPolicyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationPolicy/VacationPolicyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationperiod/VacationPeriodService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationperiod/VacationPeriodService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/rest/PlatformClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/senior/custom/rest/PlatformClient.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1565613579967</updated>
       <workItem from="1565613581812" duration="21178000" />
-      <workItem from="1565701734105" duration="8133000" />
+      <workItem from="1565701734105" duration="13146000" />
     </task>
     <servers />
   </component>
@@ -104,5 +114,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/senior/custom/rest/PlatformClient.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

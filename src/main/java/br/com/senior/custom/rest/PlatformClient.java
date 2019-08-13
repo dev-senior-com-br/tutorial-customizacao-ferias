@@ -38,7 +38,7 @@ public class PlatformClient {
     private String TENANT/* = "autohcm02"*/;
 
     @Value("${ACCESS_KEY}")
-    private String ACCESS_KEY/*= "v8ijYweEkFYOoGDVkq6x42i3_hwa"*/;
+    private String ACCESS_KEY/* = "v8ijYweEkFYOoGDVkq6x42i3_hwa"*/;
 
     @Value("${SECRET}")
     private String SECRET/* = "0czgvfnJe0YDEYDZkew5Q5a3BCoa"*/;
@@ -61,8 +61,13 @@ public class PlatformClient {
         return builder.get(tClass);
     }
 
+    /**
+     * Busca a política de férias vigente sobre o colaborador passado como parâmetro
+     *
+     * @param employeeId Id do colaborador
+     * @return Política de férias do colaborador
+     */
     public GetVacationPolicyByEmployeeOutput getVacationPolicyByEmployeeId(String employeeId) {
-        //TODO verificar se é necessário fazer o login
         System.out.println("******fazendo o login");
         try {
             login();

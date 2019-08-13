@@ -72,9 +72,15 @@ public class ValidateVacationScheduleCustomHandler {
         return ResponseEntity.ok(output);
     }
 
+    /**
+     * Método que irá realizar as validações customizadas, no caso, será possível solicitar férias até 9 meses após o início do período aquisitivo e
+     * o colaborador só pode solicitar férias até um dia espeecífico definido na política de férias
+     *
+     * @param output Mensagens de erro
+     * @param vacationSchedule Solicitação de férias
+     */
     private void validate(ValidateVacationScheduleOutput output, VacationSchedule vacationSchedule) {
 
-        // TODO Implementar validação para poder solicitar somente até o dia do campo maxDayToRequestVacation
         // Pode solicitar férias apenas até o dia X
         VacationPolicy vacationPolicy = vacationPolicyService.getVacationPolicyByEmployeeId(vacationSchedule.employeeId);
         if (vacationSchedule.startDate.getDayOfMonth() > Integer.getInteger(vacationPolicy.getCustom("maxDayToRequestVacation").toString())) {
@@ -94,6 +100,13 @@ public class ValidateVacationScheduleCustomHandler {
         }
     }
 
+    /**
+     * Adiciona uma mensagem à uma validação customizada
+     *
+     * @param output Mensagens de erro
+     * @param vacationSchedule Solicitação de férias
+     * @param message Mensagem que será adicionada
+     */
     private void addValidationMessage(ValidateVacationScheduleOutput output, VacationSchedule vacationSchedule, String message) {
         if (CollectionUtils.isEmpty(output.vacationScheduleMessages)) {
             output.vacationScheduleMessages = new ArrayList<>();
@@ -112,6 +125,12 @@ public class ValidateVacationScheduleCustomHandler {
         }
     }
 
+    /**
+     * Cria uma mensagem de validação
+     *
+     * @param vacationScheduleMessage Mensggem de erro
+     * @param message Mensagem
+     */
     private void addValidationMessage(VacationScheduleMessage vacationScheduleMessage, String message) {
         if (CollectionUtils.isEmpty(vacationScheduleMessage.validationMessages)) {
             vacationScheduleMessage.validationMessages = new ArrayList<>();
@@ -122,6 +141,13 @@ public class ValidateVacationScheduleCustomHandler {
         vacationScheduleMessage.validationMessages.add(validationMessage);
     }
 
+    /**
+     * Remove uma mensagem de validação da lista de mensagens existentes
+     *
+     * @param output Mensagem de erro
+     * @param vacationSchedule Solicitação de férias
+     * @param validationMessageType Tipo da mensagem de validação
+     */
     private void removeValidationMessage(ValidateVacationScheduleOutput output, VacationSchedule vacationSchedule, ValidationMessageType validationMessageType) {
         if (!CollectionUtils.isEmpty(output.vacationScheduleMessages)) {
             Optional<VacationScheduleMessage> vacationScheduleMessageOpt = output.vacationScheduleMessages.stream().filter(vacationScheduleMessage -> vacationScheduleMessage.employeeId.equals(vacationSchedule.employeeId)).findFirst();
