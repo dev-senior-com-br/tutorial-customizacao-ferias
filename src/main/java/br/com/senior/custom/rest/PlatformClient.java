@@ -63,7 +63,13 @@ public class PlatformClient {
 
     public GetVacationPolicyByEmployeeOutput getVacationPolicyByEmployeeId(String employeeId) {
         //TODO verificar se é necessário fazer o login
-        //login();
+        System.out.println("******fazendo o login");
+        try {
+            login();
+        }catch (Exception e) {
+            System.out.println("*****erro ao fazer login: "+e.getMessage());
+            return null;
+        }
         GetVacationPolicyByEmployeeInput getVacationPolicyByEmployeeInput = new GetVacationPolicyByEmployeeInput();
         getVacationPolicyByEmployeeInput.employeeId = employeeId;
 
@@ -79,11 +85,11 @@ public class PlatformClient {
         System.out.println("******executado builder.post com o response: "+response);
         //Response response = target.request(MediaType.APPLICATION_JSON).post(Entity.form(form));
         System.out.println("******Iniciando retorno");
-        
+
         try {
             return response.readEntity(GetVacationPolicyByEmployeeOutput.class);
         }catch (Exception e){
-            System.out.println(e.getMessage());
+            System.out.println("*******erro ao ler entidade: "+ e.getMessage());
             return null;
         }
     }
