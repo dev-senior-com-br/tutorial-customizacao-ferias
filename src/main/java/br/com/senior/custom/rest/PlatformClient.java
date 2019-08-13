@@ -122,6 +122,7 @@ public class PlatformClient {
             System.out.println("*****output criado: "+output);
             try {
                 System.out.println("******criando token...");
+                System.out.println("*******output.jsontoken: "+output.jsonToken);
                 JsonToken jsonToken = new ObjectMapper().readValue(output.jsonToken, JsonToken.class);
                 System.out.println("*****token criado: "+jsonToken.getAccessToken());
                 System.out.println("*******setando token...");
