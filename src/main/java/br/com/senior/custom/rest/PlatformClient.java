@@ -79,6 +79,7 @@ public class PlatformClient {
         System.out.println("******executado builder.post com o response: "+response);
         //Response response = target.request(MediaType.APPLICATION_JSON).post(Entity.form(form));
         System.out.println("******Iniciando retorno");
+        
         try {
             return response.readEntity(GetVacationPolicyByEmployeeOutput.class);
         }catch (Exception e){

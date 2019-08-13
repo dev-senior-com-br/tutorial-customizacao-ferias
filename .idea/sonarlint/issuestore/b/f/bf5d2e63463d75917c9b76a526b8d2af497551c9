@@ -1,0 +1,26 @@
+
+[
+squid:S106Q"9Replace this use of System.out or System.err by a logger.(×¿Ñôýÿÿÿÿ8÷Ÿþ×È-
+Xsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(‰©ÛÊ
+Jsquid:S3655<"4Call "token.isPresent()" before accessing the value.(Î¬ìh
+msquid:S00116)"URename this field "ACCESS_KEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç÷¾Ò
+[
+squid:S106I"9Replace this use of System.out or System.err by a logger.(­ç£Âøÿÿÿÿ8×µ÷×È-
+[
+squid:S106O"9Replace this use of System.out or System.err by a logger.(úÃÞøÿÿÿÿ8Íåý×È-
+isquid:CommentedOutCodeLineP"<This block of commented-out lines of code should be removed.(„’ ê8¦Ü¶×È-
+[
+squid:S106U"9Replace this use of System.out or System.err by a logger.(©þêÜúÿÿÿÿ8Ÿø€ØÈ-
+isquid:CommentedOutCodeLineB"<This block of commented-out lines of code should be removed.(£ˆ¾è8ÇøêÕÈ-
+V
+squid:S106F"9Replace this use of System.out or System.err by a logger.(¹¼Ó8ç³ó×È-
+isquid:S00116&"QRename this field "TENANT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üŠçŒ
+isquid:S00116,"QRename this field "SECRET" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–Þ‰½
+osquid:S00116#"WRename this field "PLATFORM_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õß³Ë
+_squid:S1075"ARefactor your code to get this URI from a customizable parameter.(ãÙìº8´¼å±È-
+Xsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(íž±â
+U
+squid:S106M"9Replace this use of System.out or System.err by a logger.(ë²£28Ý ù×È-
+isquid:CommentedOutCodeLineJ"<This block of commented-out lines of code should be removed.(¬éÞ¶8´°¶×È-
+Psquid:S1135A"2Complete the task associated to this TODO comment.(Äõ¹·8î¡¡»È-
+Fsquid:S1148m"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ö—†±È-

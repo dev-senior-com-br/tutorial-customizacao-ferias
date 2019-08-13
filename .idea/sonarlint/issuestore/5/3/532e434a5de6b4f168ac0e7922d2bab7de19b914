@@ -1,0 +1,3 @@
+
+ˆ"squid:ClassVariableVisibilityCheck"NMake id a static final constant or non-public and provide accessors if needed.(Â¥Šˆøÿÿÿÿ8§¾®±È-
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ðÉžÈ
