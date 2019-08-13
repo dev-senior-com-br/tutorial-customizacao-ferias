@@ -8,6 +8,7 @@ import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.Entity;
 import javax.ws.rs.client.Invocation;
 import javax.ws.rs.client.WebTarget;
+import javax.ws.rs.core.Form;
 import javax.ws.rs.core.HttpHeaders;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
@@ -67,8 +68,11 @@ public class PlatformClient {
         getVacationPolicyByEmployeeInput.employeeId = employeeId;
 
         WebTarget target = getClient();
-        Invocation.Builder builder = target.path(VACATION_MANAGEMENT_GETVACATIONPOLICYBYEMPLOYEE_QUERY_PATH).request(MediaType.APPLICATION_JSON);
-        Response response = builder.post(Entity.entity(getVacationPolicyByEmployeeInput, MediaType.APPLICATION_JSON));
+        Form form = new Form();
+        form.param("employeeId", getVacationPolicyByEmployeeInput.employeeId);
+        //Invocation.Builder builder = target.path(VACATION_MANAGEMENT_GETVACATIONPOLICYBYEMPLOYEE_QUERY_PATH).request(MediaType.APPLICATION_JSON);
+        //Response response = builder.post(Entity.entity(getVacationPolicyByEmployeeInput, MediaType.APPLICATION_JSON));
+        Response response = target.request(MediaType.APPLICATION_JSON).post(Entity.form(form));
         return response.readEntity(GetVacationPolicyByEmployeeOutput.class);
     }
 
