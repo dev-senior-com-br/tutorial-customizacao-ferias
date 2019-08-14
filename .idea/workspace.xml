@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c466f1b-ea8b-4b1c-8094-68104f07e86c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacation/ValidateVacationScheduleCustomHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacation/ValidateVacationScheduleCustomHandler.java" afterDir="false" />
-    </list>
+    <list default="true" id="7c466f1b-ea8b-4b1c-8094-68104f07e86c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +83,7 @@
       <updated>1565613579967</updated>
       <workItem from="1565613581812" duration="21178000" />
       <workItem from="1565701734105" duration="26338000" />
-      <workItem from="1565802402002" duration="3715000" />
+      <workItem from="1565802402002" duration="3955000" />
     </task>
     <servers />
   </component>
