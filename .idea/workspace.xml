@@ -2,19 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c466f1b-ea8b-4b1c-8094-68104f07e86c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_owlike_genson_0_99.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d4e0db6cd9002987bd7d3a6236705f7e7391b41" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d4e0db6cd9002987bd7d3a6236705f7e7391b41" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1fdb8d96ab14f04294af67f1976296b5414083b6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1fdb8d96ab14f04294af67f1976296b5414083b6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2bdb9318a9caa5d6aaa82d7d2451718ecea82c50" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2bdb9318a9caa5d6aaa82d7d2451718ecea82c50" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/326047b9762827b9fec204f59c7a750b286cf6f5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/326047b9762827b9fec204f59c7a750b286cf6f5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/532e434a5de6b4f168ac0e7922d2bab7de19b914" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/532e434a5de6b4f168ac0e7922d2bab7de19b914" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6e670cb775b96e36f96e40e5cfd3dc1f9a13f867" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6e670cb775b96e36f96e40e5cfd3dc1f9a13f867" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bf5d2e63463d75917c9b76a526b8d2af497551c9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bf5d2e63463d75917c9b76a526b8d2af497551c9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c24416f2eba17e5afd5f57e5d1d52e25559b53e9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c24416f2eba17e5afd5f57e5d1d52e25559b53e9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/ccf17dfcbddf199231f953683ae0148e3e20493b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/ccf17dfcbddf199231f953683ae0148e3e20493b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e537b5fae4143c89d276f70f45b5c6a210225e20" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e537b5fae4143c89d276f70f45b5c6a210225e20" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f220f65af9658370e134ca923c521bca4291f4dc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f220f65af9658370e134ca923c521bca4291f4dc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/5/f5fcd4e0adda148c983094753b987bff24ad6448" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/5/f5fcd4e0adda148c983094753b987bff24ad6448" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customizacao-ferias-autoglass.iml" beforeDir="false" afterPath="$PROJECT_DIR$/customizacao-ferias-autoglass.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/rest/PlatformClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/rest/PlatformClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacation/ValidateVacationScheduleCustomHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacation/ValidateVacationScheduleCustomHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationPolicy/CustomDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationPolicy/CustomDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationPolicy/VacationPolicyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationPolicy/VacationPolicyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationperiod/VacationPeriodService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationperiod/VacationPeriodService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationPolicy/CustomDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/common/CustomDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationPolicy/VacationPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationPolicy/VacationPolicy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/rest/PlatformClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/senior/custom/rest/PlatformClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacation/ValidateVacationScheduleCustomHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacation/ValidateVacationScheduleCustomHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationPolicy/CustomDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationPolicy/VacationPolicy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationPolicy/VacationPolicy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationPolicy/VacationPolicyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationPolicy/VacationPolicyService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationperiod/VacationPeriodService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationperiod/VacationPeriodService.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +109,8 @@
       <option name="presentableId" value="Default" />
       <updated>1565613579967</updated>
       <workItem from="1565613581812" duration="21178000" />
-      <workItem from="1565701734105" duration="13146000" />
+      <workItem from="1565701734105" duration="26338000" />
+      <workItem from="1565802402002" duration="2380000" />
     </task>
     <servers />
   </component>
@@ -120,8 +135,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/br/com/senior/custom/rest/PlatformClient.java</url>
-          <line>130</line>
-          <option name="timeStamp" value="7" />
+          <line>94</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

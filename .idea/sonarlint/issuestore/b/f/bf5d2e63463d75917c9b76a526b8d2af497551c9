@@ -1,26 +1,63 @@
 
-[
-squid:S106Q"9Replace this use of System.out or System.err by a logger.(×¿Ñôýÿÿÿÿ8÷Ÿþ×È-
-Xsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(‰©ÛÊ
-Jsquid:S3655<"4Call "token.isPresent()" before accessing the value.(Î¬ìh
-msquid:S00116)"URename this field "ACCESS_KEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç÷¾Ò
-[
-squid:S106I"9Replace this use of System.out or System.err by a logger.(­ç£Âøÿÿÿÿ8×µ÷×È-
-[
-squid:S106O"9Replace this use of System.out or System.err by a logger.(úÃÞøÿÿÿÿ8Íåý×È-
-isquid:CommentedOutCodeLineP"<This block of commented-out lines of code should be removed.(„’ ê8¦Ü¶×È-
-[
-squid:S106U"9Replace this use of System.out or System.err by a logger.(©þêÜúÿÿÿÿ8Ÿø€ØÈ-
-isquid:CommentedOutCodeLineB"<This block of commented-out lines of code should be removed.(£ˆ¾è8ÇøêÕÈ-
-V
-squid:S106F"9Replace this use of System.out or System.err by a logger.(¹¼Ó8ç³ó×È-
-isquid:S00116&"QRename this field "TENANT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üŠçŒ
-isquid:S00116,"QRename this field "SECRET" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–Þ‰½
-osquid:S00116#"WRename this field "PLATFORM_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õß³Ë
 _squid:S1075"ARefactor your code to get this URI from a customizable parameter.(ãÙìº8´¼å±È-
-Xsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(íž±â
+[
+squid:S106r"9Replace this use of System.out or System.err by a logger.(Ò•ÈÚùÿÿÿÿ8ÀØˆÚÈ-
+[
+squid:S106K"9Replace this use of System.out or System.err by a logger.(«ì±Éúÿÿÿÿ8˜øŒÙÈ-
+W
+squid:S106…"9Replace this use of System.out or System.err by a logger.(Â¬‚‚8ðš±ÚÈ-
+V
+squid:S106z"9Replace this use of System.out or System.err by a logger.(ñ•§8€Ê—ÚÈ-
+[
+squid:S106T"9Replace this use of System.out or System.err by a logger.(­ç£Âøÿÿÿÿ8×µ÷×È-
+W
+squid:S106‚"9Replace this use of System.out or System.err by a logger.(—¿œ®8õ€ÎÚÈ-
+W
+squid:S106‡"9Replace this use of System.out or System.err by a logger.(²ï ¶8Ñ…²ÚÈ-
+nsquid:CommentedOutCodeLineY"<This block of commented-out lines of code should be removed.(÷ÓŠÿÿÿÿÿ8¸ÝˆÉ-
+V
+squid:S106u"9Replace this use of System.out or System.err by a logger.(¾¾ºÁ8Í¤ÚÈ-
+_squid:S3457|"AFormat specifiers should be used instead of string concatenation.(é¢éë8“ë¤ÚÈ-
+tsquid:S00116#"WRename this field "PLATFORM_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ùáªüÿÿÿÿ
+V
+squid:S106k"9Replace this use of System.out or System.err by a logger.(™ÜœÍ8ô–†ÚÈ-
+ysquid:S00116)"URename this field "ACCESS_KEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒÏÀ¿ÿÿÿÿÿ8óú†ßÈ-
+[squid:S3655‘"7Call "Optional#isPresent()" before accessing the value.(¶›ÖÁûÿÿÿÿ8óÐÀˆÉ-
+\
+squid:S106„"9Replace this use of System.out or System.err by a logger.(Ì…ÞÌÿÿÿÿÿ8Íì¯ÚÈ-
+V
+squid:S106a"9Replace this use of System.out or System.err by a logger.(Ë²‡Â8Ÿø€ØÈ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÒÑÛþÿÿÿÿ8ïÚ¦ÚÈ-
 U
-squid:S106M"9Replace this use of System.out or System.err by a logger.(ë²£28Ý ù×È-
-isquid:CommentedOutCodeLineJ"<This block of commented-out lines of code should be removed.(¬éÞ¶8´°¶×È-
-Psquid:S1135A"2Complete the task associated to this TODO comment.(Äõ¹·8î¡¡»È-
-Fsquid:S1148m"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ö—†±È-
+squid:S106X"9Replace this use of System.out or System.err by a logger.(ë²£28Ý ù×È-
+[
+squid:S106G"9Replace this use of System.out or System.err by a logger.(´¶ÿäúÿÿÿÿ8•ÑŠÙÈ-
+V
+squid:S106m"9Replace this use of System.out or System.err by a logger.(Ý–™8†·‡ÚÈ-
+\
+squid:S106"9Replace this use of System.out or System.err by a logger.(¹ÿý°úÿÿÿÿ8‡©¯ÚÈ-
+V
+squid:S106|"9Replace this use of System.out or System.err by a logger.(é¢éë8„ž¤ÚÈ-
+[
+squid:S106Z"9Replace this use of System.out or System.err by a logger.(úÃÞøÿÿÿÿ8Íåý×È-
+[
+squid:S106}"9Replace this use of System.out or System.err by a logger.( ˜¼žÿÿÿÿÿ8“Ô¥ÚÈ-
+Jsquid:S3655<"4Call "token.isPresent()" before accessing the value.(Î¬ìh
+\
+squid:S106‘"9Replace this use of System.out or System.err by a logger.(¶›ÖÁûÿÿÿÿ8óÐÀˆÉ-
+Xsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(íž±â
+V
+squid:S106y"9Replace this use of System.out or System.err by a logger.(ÄÞ¨8Á¨–ÚÈ-
+usquid:S00116&"QRename this field "TENANT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Íö£åÿÿÿÿÿ8 »‡ßÈ-
+nsquid:S00116,"QRename this field "SECRET" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(žÅ…âøÿÿÿÿ
+Xsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(‰©ÛÊ
+V
+squid:S106Q"9Replace this use of System.out or System.err by a logger.(¹¼Ó8ç³ó×È-
+V
+squid:S106w"9Replace this use of System.out or System.err by a logger.(¦¦–Ñ8À”ÚÈ-
+[
+squid:S106\"9Replace this use of System.out or System.err by a logger.(×¿Ñôýÿÿÿÿ8÷Ÿþ×È-
+Gsquid:S1148‰"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ö—†±È-
+|squid:S1068"^Remove this unused "VACATION_MANAGEMENT_GETVACATIONPOLICYBYEMPLOYEE_QUERY_PATH" private field.(ãÙìº8¶¿ÝˆÉ-
+hsquid:CommentedOutCodeLineW"<This block of commented-out lines of code should be removed.(ñ×·v8¶¿ÝˆÉ-

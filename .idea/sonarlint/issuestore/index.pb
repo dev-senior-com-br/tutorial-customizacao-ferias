@@ -39,3 +39,9 @@ Vsrc/main/java/br/com/senior/custom/vacation/ValidateVacationScheduleCustomHandl
 Lsrc/main/java/br/com/senior/custom/vacationPolicy/VacationPolicyService.java,e\5\e537b5fae4143c89d276f70f45b5c6a210225e20
 k
 ;src/main/java/br/com/senior/custom/rest/PlatformClient.java,b\f\bf5d2e63463d75917c9b76a526b8d2af497551c9
+w
+Gsrc/main/java/br/com/senior/custom/authorization/LoginWithKeyInput.java,f\c\fc295aecd72c4a2965d183db434600cf1149bd71
+x
+Hsrc/main/java/br/com/senior/custom/authorization/LoginWithKeyOutput.java,7\6\76891b1900f33fa16022e5a6eef5ea56cf0135af
+h
+8src/main/java/br/com/senior/custom/common/CustomDTO.java,5\5\559fceb067cf8521b51bf4226f175c227f2caf2c

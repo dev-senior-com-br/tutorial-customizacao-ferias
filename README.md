@@ -40,7 +40,7 @@ server.port = 8080
 
 * Na raiz do projeto, executar o seguinte comando para gerar o jar
 ```
-mvn-package
+mvn package
 ```     
 * Será gerado um arquivo customizacao-ferias.jar dentro da pasta target
 
@@ -52,3 +52,19 @@ java -jar -DPLATFORM_URL=https://platform.senior.com.br -DTENANT=<tenant> -DACCE
 ```
 
 * Ou utilizar qualquer [outra forma](https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-running-your-application.html) de executar uma aplicação Spring
+
+# Edição do projeto
+
+### Adicionando uma nova mensagem de erro...
+* Para adicionar uma mensagem de erro nova, deve-se usar o método `addValidationMessage()` localizado na classe `ValidateVacationScheduleCustomHandler` passando como parâmetro as mensagens de erros atuais, a solicitação de férias e a nova mensagem.
+### Removendo uma mensagem de erro
+* Para remover uma mensagem de erro do projeto de validação de férias da Senior, deve-se utilizar o método `removeValidationMessage()` localizado na classe `ValidateVacationScheduleCustomHandler` passando como parâmetro as mensagens de erro atuais, a solicitação de férias e o enum correspondente a 
+mensagem que será removida. 
+### Organização do projeto
+* //TODO
+### Criando uma nova validação...
+* As novas validações devem ser chamadas na classe `ValidateVacationScheduleCustomHandler` dentro do método `validate()`.
+### Obtendo o valor de um campo criado pelo usuário na plataforma
+* Para obter o valor de um campo customizado, a classe que possui esse campo deve ser extendida com `CustomDTO` como é feito na classe `VacationPolicy`. Desse modo, quando você precisar do valor do campo, deve-se usar o método `getCustom()` passando por parâmetro o nome do campo
+### Javadocs...
+* Todos os métodos desse projeto possuem Javadoc explicando a funcionalidade do método, o retorno e os parâmetros. Há anotações Javadoc em variáveis também explicando a função da variável.

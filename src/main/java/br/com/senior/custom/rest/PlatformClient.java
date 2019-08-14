@@ -8,7 +8,6 @@ import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.Entity;
 import javax.ws.rs.client.Invocation;
 import javax.ws.rs.client.WebTarget;
-import javax.ws.rs.core.Form;
 import javax.ws.rs.core.HttpHeaders;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
@@ -32,16 +31,16 @@ public class PlatformClient {
     private static final String BEARER_TOKEN = "Bearer %s";
 
     @Value("${PLATFORM_URL}")
-    private String PLATFORM_URL/* = "https://platform-homologx.senior.com.br"*/;
+    private String PLATFORM_URL = "https://platform-homologx.senior.com.br";
 
     @Value("${TENANT}")
-    private String TENANT/* = "autohcm02"*/;
+    private String TENANT = "autohcm02";
 
     @Value("${ACCESS_KEY}")
-    private String ACCESS_KEY/* = "v8ijYweEkFYOoGDVkq6x42i3_hwa"*/;
+    private String ACCESS_KEY = "v8ijYweEkFYOoGDVkq6x42i3_hwa";
 
     @Value("${SECRET}")
-    private String SECRET/* = "0czgvfnJe0YDEYDZkew5Q5a3BCoa"*/;
+    private String SECRET = "0czgvfnJe0YDEYDZkew5Q5a3BCoa";
 
     private Optional<JsonToken> token = Optional.empty();
 
@@ -84,7 +83,8 @@ public class PlatformClient {
         System.out.println("******iniciado web target");
         //Form form = new Form();
         //form.param("employeeId", getVacationPolicyByEmployeeInput.employeeId);
-        Invocation.Builder builder = target.path(VACATION_MANAGEMENT_GETVACATIONPOLICYBYEMPLOYEE_QUERY_PATH).request(MediaType.APPLICATION_JSON);
+        Invocation.Builder builder = target.path(VACATION_MANAGEMENT_GETVACATIONPOLICYBYEMPLOYEE_QUERY_PATH).request(MediaType.APPLICATION_JSON) //
+                .header(HttpHeaders.AUTHORIZATION, String.format(BEARER_TOKEN, token.get().getAccessToken()));
         System.out.println("******Invocation.Builder executado");
         Response response = builder.post(Entity.entity(getVacationPolicyByEmployeeInput, MediaType.APPLICATION_JSON));
         System.out.println("******executado builder.post com o response: "+response);
@@ -121,7 +121,7 @@ public class PlatformClient {
             System.out.println("*****builder criado");
             System.out.println("******criando response...");
             Response response = builder.post(Entity.entity(loginWithKeyInput, MediaType.APPLICATION_JSON));
-            System.out.printf("*******response criado: "+response);
+            System.out.println("*******response criado: "+response);
             System.out.println("******criando output...");
             LoginWithKeyOutput output = response.readEntity(LoginWithKeyOutput.class);
             System.out.println("*****output criado: "+output);
@@ -141,7 +141,7 @@ public class PlatformClient {
 
 //    public static void main(String[] args) {
 //        PlatformClient platformClient = new PlatformClient();
-//        platformClient.login();
+//        platformClient.getVacationPolicyByEmployeeId("02D9C26745464AE4A372FE50AB615E6F");
 //        System.out.println(platformClient.token.get().getAccessToken());
 //    }
 

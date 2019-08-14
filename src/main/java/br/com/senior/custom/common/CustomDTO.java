@@ -1,4 +1,4 @@
-package br.com.senior.custom.vacationPolicy;
+package br.com.senior.custom.common;
 
 import java.util.Collections;
 import java.util.HashMap;

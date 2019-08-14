@@ -1,5 +1,5 @@
 
-Vsquid:UselessImportCheck"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
-ksquid:UselessImportCheck"GRemove this unused import 'org.springframework.boot.CommandLineRunner'.(È—ÿÅ
 lsquid:UselessImportCheck	"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰Þ
+Vsquid:UselessImportCheck"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
 osquid:UselessImportCheck"KRemove this unused import 'org.springframework.context.ApplicationContext'.(»Ô»¿
+ksquid:UselessImportCheck"GRemove this unused import 'org.springframework.boot.CommandLineRunner'.(È—ÿÅ
