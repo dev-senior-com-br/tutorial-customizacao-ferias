@@ -85,7 +85,7 @@ public class ValidateVacationScheduleCustomHandler {
         VacationPolicy vacationPolicy = vacationPolicyService.getVacationPolicyByEmployeeId(vacationSchedule.employeeId);
         //TODO Validar se o campo existe
         System.out.println("******AllCustomField: "+vacationPolicy.getCustom().toString());
-        System.out.println("******AllCustomField: "+vacationPolicy.getCustom("maxDayToRequestVacation").toString());
+        System.out.println("******AllCustomField: "+Integer.getInteger(vacationPolicy.getCustom("maxDayToRequestVacation").toString()));
         if (vacationSchedule.startDate.getDayOfMonth() > Integer.getInteger(vacationPolicy.getCustom("maxDayToRequestVacation").toString())) {
             addValidationMessage(output, vacationSchedule, String.format(MAX_SCHEDULE_DAY_MESSAGE, MAX_SCHEDULE_DAY));
         }
