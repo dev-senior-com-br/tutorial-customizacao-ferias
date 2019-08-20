@@ -1,14 +1,32 @@
 # Customização - Validação de Férias      
       
-Projeto de customização da validação de férias da Senior      
+Projeto exemplo de customização da validação de férias da Senior.      
       
 ## Pré requisitos    
 
 * Java 1.8 ou superior
 * Maven
-* Acesso ao usuário admin do tenant da plataforma (para criação da [aplicação](https://documentacao.senior.com.br/seniorxplatform/index.htm#administracao/gerenciamento-de-aplicacoes.htm))
       
-## Configuração    
+# Projeto
+ Esse projeto permite a customização da validação de férias com as seguintes funcionalidades:
+
+### Adicionando uma nova mensagem de erro
+* Para adicionar uma mensagem de erro nova, deve-se usar o método `addValidationMessage()` localizado na classe package-private `ValidationMessageService` passando como parâmetro as mensagens de erros atuais, a solicitação de férias e a nova mensagem.
+### Removendo uma mensagem de erro
+* Para remover uma mensagem de erro do projeto de validação de férias da Senior, deve-se utilizar o método `removeValidationMessage()` localizado na classe `ValidationMessageService` passando como parâmetro as mensagens de erro atuais, a solicitação de férias e o tipo correspondente 
+a mensagem que será removida. 
+### Criando uma nova validação
+* Novas validações devem estar contidas dentro do pacote validation e devem implementar a interface `VacationScheduleValidatorBase`. As novas validações devem ser chamadas na classe `ValidatorService` dentro do método `validate()`. Pode-se usar como base as validações já criadas. Recomenda-se que 
+após criar uma validação nova ou alterar uma existente, sejam implementados testes unitários para garantir a funcionalidade da nova implementação.
+### Obtendo o valor de um campo criado pelo usuário na plataforma
+* Para obter o valor de um campo customizado, a classe que possui esse campo deve ter os métodos `getCustom()` e `setCustom()`, assim como é feito na classe `VacationPolicy`. Desse modo, quando você precisar do valor do campo, deve-se usar o método `getCustom()` passando por parâmetro o ID do campo
+que foi criado na plataforma.
+### Documentação
+* Todos os métodos de validação deste projeto possuem documentação explicando a funcionalidade do método, o retorno e os parâmetros. Para o auxílio do entendimento do código também contém comentários explicando trechos específicos de código.
+### Testes Automatizados
+* No projeto as classes de serviço e handler estão cobertos por testes automatizados, o cenário e o resultado de todos os teste está documentado sempre acima do teste.
+
+# Executando o projeto    
     
 ###  Criar aplicação na plataforma Senior X    
     
@@ -20,15 +38,6 @@ Projeto de customização da validação de férias da Senior
  6. Clicar em "Gerar Chave"    
  7. O primeiro campo gerado é o ACCESS_KEY , e o segundo campo é o SECRET (será utilizado no próximo passo).    
     
-### Definir as variáveis de ambiente para execução      
-      
-|      Nome     |    Valor                                      |      
-| ------------- | --------------------------------------------- |      
-| PLATFORM_URL  | https://platform.senior.com.br                |      
-| TENANT        | \<nome tenant>                                |      
-| ACCESS_KEY    | \<access key> obtido na criação da aplicação  |      
-| SECRET        | \<secret> obtido na criação da aplicação     |      
-
 ### Definir a porta que será usada     
 
 * Definir no arquivo application.properties
@@ -46,25 +55,18 @@ mvn package
 
 ## Deploy      
 
+### Variáveis necessárias para execução:
+      
+|      Nome     |    Valor                                      |      
+| ------------- | --------------------------------------------- |      
+| PLATFORM_URL  | https://platform.senior.com.br                |      
+| TENANT        | \<nome tenant>                                |      
+| ACCESS_KEY    | \<access key> obtido na criação da aplicação  |      
+| SECRET        | \<secret> obtido na criação da aplicação      |     
+
 * Executar aplicação
 ```
 java -jar -DPLATFORM_URL=https://platform.senior.com.br -DTENANT=<tenant> -DACCESS_KEY=<access-key> -DSECRET=<secret> customizacao-ferias.jar
 ```
 
 * Ou utilizar qualquer [outra forma](https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-running-your-application.html) de executar uma aplicação Spring
-
-# Edição do projeto
-
-### Adicionando uma nova mensagem de erro...
-* Para adicionar uma mensagem de erro nova, deve-se usar o método `addValidationMessage()` localizado na classe `ValidateVacationScheduleCustomHandler` passando como parâmetro as mensagens de erros atuais, a solicitação de férias e a nova mensagem.
-### Removendo uma mensagem de erro
-* Para remover uma mensagem de erro do projeto de validação de férias da Senior, deve-se utilizar o método `removeValidationMessage()` localizado na classe `ValidateVacationScheduleCustomHandler` passando como parâmetro as mensagens de erro atuais, a solicitação de férias e o enum correspondente a 
-mensagem que será removida. 
-### Organização do projeto
-* //TODO
-### Criando uma nova validação...
-* As novas validações devem ser chamadas na classe `ValidateVacationScheduleCustomHandler` dentro do método `validate()`.
-### Obtendo o valor de um campo criado pelo usuário na plataforma
-* Para obter o valor de um campo customizado, a classe que possui esse campo deve ser extendida com `CustomDTO` como é feito na classe `VacationPolicy`. Desse modo, quando você precisar do valor do campo, deve-se usar o método `getCustom()` passando por parâmetro o nome do campo
-### Javadocs...
-* Todos os métodos desse projeto possuem Javadoc explicando a funcionalidade do método, o retorno e os parâmetros. Há anotações Javadoc em variáveis também explicando a função da variável.
