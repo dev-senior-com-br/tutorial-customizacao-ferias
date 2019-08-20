@@ -22,8 +22,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @Service
 public class PlatformClient {
 
-    private static final String VACATION_MANAGEMENT_GETVACATIONPOLICYBYEMPLOYEE_QUERY_PATH = "/t/senior.com.br/bridge/1.0/platform/hcm/vacationmanagement/queries/getVacationPolicyByEmployee";
-    private static final String VACATION_MANAGEMENT_ENTITIES_PATH = "/t/senior.com.br/bridge/1.0/platform/hcm/vacationmanagement/entities/%s/%s";
+    private static final String VACATION_MANAGEMENT_GETVACATIONPOLICYBYEMPLOYEE_QUERY_PATH = "/t/senior.com.br/bridge/1.0/rest/hcm/vacationmanagement/queries/getVacationPolicyByEmployee";
+    private static final String VACATION_MANAGEMENT_ENTITIES_PATH = "/t/senior.com.br/bridge/1.0/rest/hcm/vacationmanagement/entities/%s/%s";
     private static final String LOGIN_WITH_KEY_PATH = "/t/senior.com.br/bridge/1.0/anonymous/rest/platform/authentication/actions/loginWithKey";
     private static final String BEARER_TOKEN = "Bearer %s";
 
@@ -110,11 +110,12 @@ public class PlatformClient {
         }
     }
 
-//    Método para testes no PlatformCliente do projeto de customização
+    //Método para testes no PlatformCliente do projeto de customização
 //        public static void main(String[] args) {
 //            PlatformClient platformClient = new PlatformClient();
-//            platformClient.login();
-//            System.out.println(platformClient.token.get().getAccessToken());
+//            GetVacationPolicyByEmployeeOutput vp = platformClient.getVacationPolicyByEmployeeId("02D9C26745464AE4A372FE50AB615E6F");
+//            //System.out.println(platformClient.token.get().getAccessToken());
+//            System.out.println(vp.vacationPolicy);
 //        }
 
 }
