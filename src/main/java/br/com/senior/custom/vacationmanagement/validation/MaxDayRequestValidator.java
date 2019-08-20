@@ -38,7 +38,7 @@ class MaxDayRequestValidator implements VacationScheduleValidatorBase {
             if (vacationPolicy.getCustom("maxDayToRequestVacation") != null) {
                 try {
                     // Pode ocorrer erro de conversão caso o campo tenha um valor incompatível
-                    final double maxDayToRequestVacation = Double.parseDouble(vacationPolicy.getCustom("maxDayToRequestVacation").toString());
+                    final double maxDayToRequestVacation = Integer.parseInt(vacationPolicy.getCustom("maxDayToRequestVacation").toString());
 
                     // Verifica se o dia de início das férias é maior que o dia limite
                     if (vacationSchedule.startDate.getDayOfMonth() > maxDayToRequestVacation) {

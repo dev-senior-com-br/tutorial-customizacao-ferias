@@ -1,0 +1,15 @@
+
+"squid:ClassVariableVisibilityCheck"NMake id a static final constant or non-public and provide accessors if needed.(Â¥Šˆøÿÿÿÿ
+„"squid:ClassVariableVisibilityCheck"VMake policyName a static final constant or non-public and provide accessors if needed.(¶¼„–
+ "squid:ClassVariableVisibilityCheck"mMake allowThirteenthSalaryAnticipation a static final constant or non-public and provide accessors if needed.(šÅñ‹ùÿÿÿÿ
+›"squid:ClassVariableVisibilityCheck"mMake thirteenthSalaryAnticipationBegin a static final constant or non-public and provide accessors if needed.(‰ø–»
+™"squid:ClassVariableVisibilityCheck$"kMake thirteenthSalaryAnticipationEnd a static final constant or non-public and provide accessors if needed.(Îê©”
+‘"squid:ClassVariableVisibilityCheck)"^Make allowVacationBonus a static final constant or non-public and provide accessors if needed.(÷İÙÁøÿÿÿÿ
+‘"squid:ClassVariableVisibilityCheck."^Make vacationBonusBegin a static final constant or non-public and provide accessors if needed.(öŠÅşÿÿÿÿ
+Š"squid:ClassVariableVisibilityCheck3"\Make vacationBonusEnd a static final constant or non-public and provide accessors if needed.(Ïµíı
+‹"squid:ClassVariableVisibilityCheck8"]Make vacationBonusType a static final constant or non-public and provide accessors if needed.(–ê¸³
+œ"squid:ClassVariableVisibilityCheck="nMake vacationSchedulingInAdvanceMinDays a static final constant or non-public and provide accessors if needed.(õéÙ³
+Š"squid:ClassVariableVisibilityCheckB"\Make allowFractioning a static final constant or non-public and provide accessors if needed.(»ªŠ¿
+Š"squid:ClassVariableVisibilityCheckG"\Make fractioningTypes a static final constant or non-public and provide accessors if needed.(±®ÁÖ
+š"squid:ClassVariableVisibilityCheckL"gMake allowBeforeConcessivePeriod a static final constant or non-public and provide accessors if needed.(›é¹éûÿÿÿÿ
+’"squid:ClassVariableVisibilityCheckQ"dMake allowOverVacationBalance a static final constant or non-public and provide accessors if needed.(äşÆ¾

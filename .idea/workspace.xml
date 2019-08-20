@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="79612100-732e-4b70-afa6-f4deeb89a492" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/handler/ValidateVacationScheduleCustomHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/handler/ValidateVacationScheduleCustomHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/validation/MaxDayRequestValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/validation/MaxDayRequestValidator.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +17,8 @@
       <list>
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -197,16 +199,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/handler/ValidateVacationScheduleCustomHandler.java</url>
-          <line>61</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/handler/ValidateVacationScheduleCustomHandler.java</url>
-          <line>62</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/platform/PlatformClient.java</url>
           <line>76</line>

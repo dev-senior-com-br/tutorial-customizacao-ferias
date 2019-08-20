@@ -1,0 +1,14 @@
+
+Jsquid:S3655N"4Call "token.isPresent()" before accessing the value.(Î¬ìh
+?squid:S1148l"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+?squid:S1148S"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+tsquid:S00116"WRename this field "PLATFORM_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëšÜ·ýÿÿÿÿ
+?squid:S1148F"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+nsquid:S00116""QRename this field "TENANT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïÐ’Ïùÿÿÿÿ
+Xsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(‰©ÛÊ
+nsquid:CommentedOutCodeLiner"<This block of commented-out lines of code should be removed.(»ž•ûÿÿÿÿ8Ò±øÊ-
+Jsquid:S36558"4Call "token.isPresent()" before accessing the value.(Î¬ìh
+ysquid:S00116%"URename this field "ACCESS_KEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬÷‚ëùÿÿÿÿ8žÅŠøÊ-
+nsquid:S00116("QRename this field "SECRET" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ç¢üüÿÿÿÿ
+Xsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(ãÙìº
+Xsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(íž±â
