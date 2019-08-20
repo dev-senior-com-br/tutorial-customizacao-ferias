@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="79612100-732e-4b70-afa6-f4deeb89a492" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/platform/PlatformClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/platform/PlatformClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/vacationpolicy/GetVacationPolicyByEmployeeOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/vacationpolicy/GetVacationPolicyByEmployeeOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationmanagement/vacationpolicy/GetVacationPolicyByEmployeeOutput.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationmanagement/vacationpolicy/GetVacationPolicyByEmployeeOutput.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

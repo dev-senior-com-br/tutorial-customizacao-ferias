@@ -2,10 +2,12 @@ package br.com.senior.custom.vacationmanagement.handler;
 
 import javax.inject.Inject;
 
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.senior.custom.vacationmanagement.validation.ValidateVacationScheduleInput;
@@ -31,6 +33,7 @@ public class ValidateVacationScheduleCustomHandler {
      * @return Novo output que será retornado pela primitiva "validateVacationSchedule"
      */
     @PostMapping(path = "/validateVacationSchedule")
+    @ResponseStatus(value = HttpStatus.BAD_REQUEST)
     public ResponseEntity<ValidateVacationScheduleOutput> customValidateVacationSchedule(@RequestBody ValidateVacationScheduleRequest request) {
         ValidateVacationScheduleInput input = request.input;
         ValidateVacationScheduleOutput output = request.output;
