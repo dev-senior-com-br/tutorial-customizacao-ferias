@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79612100-732e-4b70-afa6-f4deeb89a492" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_json_jackson_2_26_b08.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_json_jackson_2_29.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/platform/PlatformClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/platform/PlatformClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationmanagement/platform/PlatformClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationmanagement/platform/PlatformClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial-customizacao-ferias.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-customizacao-ferias.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/vacationpolicy/GetVacationPolicyByEmployeeOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/vacationpolicy/GetVacationPolicyByEmployeeOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationmanagement/vacationpolicy/GetVacationPolicyByEmployeeOutput.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationmanagement/vacationpolicy/GetVacationPolicyByEmployeeOutput.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
