@@ -101,6 +101,7 @@ public class PlatformClient {
             Invocation.Builder builder = target.path(LOGIN_WITH_KEY_PATH).request(MediaType.APPLICATION_JSON);
             Response response = builder.post(Entity.entity(loginWithKeyInput, MediaType.APPLICATION_JSON));
             LoginWithKeyOutput output = response.readEntity(LoginWithKeyOutput.class);
+            System.out.println("***Output - json token: " + output.jsonToken);
             try {
                 JsonToken jsonToken = new ObjectMapper().readValue(output.jsonToken, JsonToken.class);
                 this.token = Optional.of(jsonToken);

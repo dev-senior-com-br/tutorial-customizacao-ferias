@@ -2,123 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79612100-732e-4b70-afa6-f4deeb89a492" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Gabriel_Kresin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_2_23_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/handler/ValidateVacationScheduleCustomHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/vacationpolicy/FractioningType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/vacationpolicy/Month.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/vacationpolicy/VacationBonusType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/vacationpolicy/VacationPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/vacationpolicy/VacationPolicyFractioning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/validation/LimitDateValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/validation/MaxDayRequestValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/validation/MaxDayRequestValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/validation/VacationScheduleValidatorBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/validation/ValidateVacationScheduleRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/validation/ValidationMessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/validation/ValidatorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/senior/custom/vacationmanagement/handler/ValidateVacationScheduleCustomHandlerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/senior/custom/vacationmanagement/vacationperiod/VacationPeriodServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/senior/custom/vacationmanagement/vacationpolicy/VacationPolicyServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/senior/custom/vacationmanagement/validation/LimitDateValidatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/senior/custom/vacationmanagement/validation/MaxDayRequestValidatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/senior/custom/vacationmanagement/validation/ValidatorServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-customizacao-ferias.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_2_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d4e0db6cd9002987bd7d3a6236705f7e7391b41" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1fdb8d96ab14f04294af67f1976296b5414083b6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2bdb9318a9caa5d6aaa82d7d2451718ecea82c50" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/326047b9762827b9fec204f59c7a750b286cf6f5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/f/3f033f71e4753e69161755baaf887ac0ac1fae94" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/532e434a5de6b4f168ac0e7922d2bab7de19b914" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/559fceb067cf8521b51bf4226f175c227f2caf2c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/6847404fe8d92c3d0b9b396f7f14c70c037089fb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6e670cb775b96e36f96e40e5cfd3dc1f9a13f867" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/76891b1900f33fa16022e5a6eef5ea56cf0135af" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a950de961c3104b273d9c2cc673e4b78eff19f1e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bf5d2e63463d75917c9b76a526b8d2af497551c9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c24416f2eba17e5afd5f57e5d1d52e25559b53e9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/ccf17dfcbddf199231f953683ae0148e3e20493b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d3895080a474ed0f82f1f52e295e3a17ea793c52" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dcc4de29a2e225b312ea81e3bc51e545cbc5249a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e2b2f541efe069bd68e1afd308fc30d97d558adf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e537b5fae4143c89d276f70f45b5c6a210225e20" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f220f65af9658370e134ca923c521bca4291f4dc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/5/f5fcd4e0adda148c983094753b987bff24ad6448" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fc295aecd72c4a2965d183db434600cf1149bd71" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customizacao-ferias-autoglass.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/authorization/JsonToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/platform/JsonToken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/authorization/LoginWithKeyInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/platform/LoginWithKeyInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/authorization/LoginWithKeyOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/platform/LoginWithKeyOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/common/CustomDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/rest/PlatformClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/platform/PlatformClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacation/ValidateVacationScheduleCustomHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacation/model/VacationSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/vacationschedule/VacationSchedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacation/model/VacationScheduleMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/vacationschedule/VacationScheduleMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacation/model/ValidateVacationScheduleInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/validation/ValidateVacationScheduleInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacation/model/ValidateVacationScheduleOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/validation/ValidateVacationScheduleOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacation/model/ValidateVacationScheduleRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacation/model/ValidationMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/validation/ValidationMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacation/model/ValidationMessageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/validation/ValidationMessageType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationPolicy/GetVacationPolicyByEmployeeInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/vacationpolicy/GetVacationPolicyByEmployeeInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationPolicy/GetVacationPolicyByEmployeeOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/vacationpolicy/GetVacationPolicyByEmployeeOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationPolicy/VacationPolicy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationPolicy/VacationPolicyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/vacationpolicy/VacationPolicyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationperiod/VacationPeriod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/vacationperiod/VacationPeriod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationperiod/VacationPeriodService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/vacationperiod/VacationPeriodService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/customizacao-ferias-autoglass.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/authorization/JsonToken.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/authorization/LoginWithKeyInput.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/authorization/LoginWithKeyOutput.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/common/CustomDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/rest/PlatformClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacation/ValidateVacationScheduleCustomHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacation/model/VacationSchedule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacation/model/VacationScheduleMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacation/model/ValidateVacationScheduleInput.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacation/model/ValidateVacationScheduleOutput.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacation/model/ValidateVacationScheduleRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacation/model/ValidationMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacation/model/ValidationMessageType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationPolicy/GetVacationPolicyByEmployeeInput.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationPolicy/GetVacationPolicyByEmployeeOutput.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationPolicy/VacationPolicy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationPolicy/VacationPolicyService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationperiod/VacationPeriod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationperiod/VacationPeriodService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/customizacao-ferias-autoglass-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/customizacao-ferias-autoglass-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/platform/PlatformClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/platform/PlatformClient.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,6 +24,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="tutorial-customizacao-ferias/invalid/Spring" />
+      <facet id="tutorial-customizacao-ferias/invalid/Web" />
+    </ignored-facets>
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -157,6 +48,7 @@
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
