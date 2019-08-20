@@ -2,8 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79612100-732e-4b70-afa6-f4deeb89a492" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_11.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/platform/PlatformClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/platform/PlatformClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationmanagement/authorization/JsonToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationmanagement/authorization/LoginWithKeyInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationmanagement/authorization/LoginWithKeyOutput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationmanagement/rest/PlatformClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationmanagement/vacationperiod/VacationPeriodService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationmanagement/vacationperiod/VacationPeriodService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationmanagement/vacationpolicy/VacationPolicyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationmanagement/vacationpolicy/VacationPolicyService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationmanagement/validation/MaxDayRequestValidationException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationmanagement/validation/MaxDayRequestValidationException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationmanagement/validation/MaxDayRequestValidatorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationmanagement/validation/StartDateValidatorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationmanagement/validation/ValidationMessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationmanagement/validation/ValidationMessageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationmanagement/validation/ValidatorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationmanagement/validation/ValidatorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/senior/custom/vacationmanagement/vacation/ValidateVacationScheduleCustomHandlerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/senior/custom/vacationmanagement/vacationperiod/VacationPeriodServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/senior/custom/vacationmanagement/vacationperiod/VacationPeriodServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/senior/custom/vacationmanagement/vacationpolicy/VacationPolicyServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/senior/custom/vacationmanagement/vacationpolicy/VacationPolicyServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/senior/custom/vacationmanagement/validation/MaxDayRequestValidatorServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/senior/custom/vacationmanagement/validation/StartDateValidatorServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/senior/custom/vacationmanagement/validation/ValidatorServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/senior/custom/vacationmanagement/validation/ValidatorServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-customizacao-ferias.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-customizacao-ferias.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +100,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in tutorial-customizacao-ferias">
+  <component name="RunManager" selected="Application.PlatformClient">
+    <configuration name="PlatformClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.senior.custom.vacationmanagement.platform.PlatformClient" />
+      <module name="tutorial-customizacao-ferias" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.senior.custom.vacationmanagement.platform.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in tutorial-customizacao-ferias" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tutorial-customizacao-ferias" />
       <option name="PACKAGE_NAME" value="" />
@@ -97,22 +133,6 @@
       <option name="PACKAGE_NAME" value="br.com.senior.custom.validation" />
       <option name="MAIN_CLASS_NAME" value="br.com.senior.custom.validation.MaxDayRequestValidatorServiceTest" />
       <option name="METHOD_NAME" value="handleValidation_conversionError" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidateVacationScheduleCustomHandlerTest.customValidateVacationSchedule" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tutorial-customizacao-ferias" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.senior.custom.vacation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.senior.custom.vacation" />
-      <option name="MAIN_CLASS_NAME" value="br.com.senior.custom.vacation.ValidateVacationScheduleCustomHandlerTest" />
-      <option name="METHOD_NAME" value="customValidateVacationSchedule" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PlatformClient" />
         <item itemvalue="JUnit.All in tutorial-customizacao-ferias" />
         <item itemvalue="JUnit.ValidatorServiceTest.validate" />
         <item itemvalue="JUnit.MaxDayRequestValidatorServiceTest.handleValidation_conversionError" />
         <item itemvalue="JUnit.ValidateVacationScheduleCustomHandlerTest.customValidateVacationSchedule_exception" />
-        <item itemvalue="JUnit.ValidateVacationScheduleCustomHandlerTest.customValidateVacationSchedule" />
       </list>
     </recent_temporary>
   </component>
@@ -210,6 +230,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/handler/ValidateVacationScheduleCustomHandler.java</url>
           <line>62</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/platform/PlatformClient.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -24,20 +24,20 @@ public class PlatformClient {
 
     private static final String VACATION_MANAGEMENT_GETVACATIONPOLICYBYEMPLOYEE_QUERY_PATH = "/t/senior.com.br/bridge/1.0/platform/hcm/vacationmanagement/queries/getVacationPolicyByEmployee";
     private static final String VACATION_MANAGEMENT_ENTITIES_PATH = "/t/senior.com.br/bridge/1.0/platform/hcm/vacationmanagement/entities/%s/%s";
-    private static final String LOGIN_WITH_KEY_PATH = "/t/senior.com.br/bridge/1.0/anonymous/platform/platform/authentication/actions/loginWithKey";
+    private static final String LOGIN_WITH_KEY_PATH = "/t/senior.com.br/bridge/1.0/anonymous/rest/platform/authentication/actions/loginWithKey";
     private static final String BEARER_TOKEN = "Bearer %s";
 
     @Value("${PLATFORM_URL}")
-    private String PLATFORM_URL;
+    private String PLATFORM_URL = "https://platform-homologx.senior.com.br";
 
     @Value("${TENANT}")
-    private String TENANT;
+    private String TENANT = "autohcm02";
 
     @Value("${ACCESS_KEY}")
-    private String ACCESS_KEY;
+    private String ACCESS_KEY = "v8ijYweEkFYOoGDVkq6x42i3_hwa";
 
     @Value("${SECRET}")
-    private String SECRET;
+    private String SECRET = "0czgvfnJe0YDEYDZkew5Q5a3BCoa";
 
     private Optional<JsonToken> token = Optional.empty();
 
@@ -101,7 +101,6 @@ public class PlatformClient {
             Invocation.Builder builder = target.path(LOGIN_WITH_KEY_PATH).request(MediaType.APPLICATION_JSON);
             Response response = builder.post(Entity.entity(loginWithKeyInput, MediaType.APPLICATION_JSON));
             LoginWithKeyOutput output = response.readEntity(LoginWithKeyOutput.class);
-            System.out.println("***Output - json token: " + output.jsonToken);
             try {
                 JsonToken jsonToken = new ObjectMapper().readValue(output.jsonToken, JsonToken.class);
                 this.token = Optional.of(jsonToken);
@@ -110,5 +109,12 @@ public class PlatformClient {
             }
         }
     }
+
+//    Método para testes no PlatformCliente do projeto de customização
+//        public static void main(String[] args) {
+//            PlatformClient platformClient = new PlatformClient();
+//            platformClient.login();
+//            System.out.println(platformClient.token.get().getAccessToken());
+//        }
 
 }
