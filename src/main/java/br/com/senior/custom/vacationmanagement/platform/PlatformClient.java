@@ -28,16 +28,16 @@ public class PlatformClient {
     private static final String BEARER_TOKEN = "Bearer %s";
 
     @Value("${PLATFORM_URL}")
-    private String PLATFORM_URL = "https://platform-homologx.senior.com.br";
+    private String PLATFORM_URL/* = "https://platform-homologx.senior.com.br"*/;
 
     @Value("${TENANT}")
-    private String TENANT = "autohcm02";
+    private String TENANT/* = "autohcm02"*/;
 
     @Value("${ACCESS_KEY}")
-    private String ACCESS_KEY = "v8ijYweEkFYOoGDVkq6x42i3_hwa";
+    private String ACCESS_KEY/* = "v8ijYweEkFYOoGDVkq6x42i3_hwa"*/;
 
     @Value("${SECRET}")
-    private String SECRET = "0czgvfnJe0YDEYDZkew5Q5a3BCoa";
+    private String SECRET/* = "0czgvfnJe0YDEYDZkew5Q5a3BCoa"*/;
 
     private Optional<JsonToken> token = Optional.empty();
 
