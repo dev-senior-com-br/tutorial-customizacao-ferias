@@ -62,6 +62,11 @@
             <artifactId>activation</artifactId>
             <version>1.1.1</version>
         </dependency>
+        <dependency>
+            <groupId>org.glassfish.jersey.media</groupId>
+            <artifactId>jersey-media-json-jackson</artifactId>
+            <version>2.26-b08</version>
+        </dependency>
 
         <!-- Dependências para classes de teste -->
         <dependency>
