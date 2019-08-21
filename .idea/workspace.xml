@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79612100-732e-4b70-afa6-f4deeb89a492" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/documentation/ImportProjectEclipse.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documentation/ImportProjectIntelliJ.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/handler/ValidateVacationScheduleCustomHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/handler/ValidateVacationScheduleCustomHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup-tutorial-customizacao-ferias.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/validation/MaxDayRequestValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senior/custom/vacationmanagement/validation/MaxDayRequestValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationmanagement/platform/PlatformClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/senior/custom/vacationmanagement/platform/PlatformClient.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +51,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="C:/Projects" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -65,6 +69,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\git\tutorial-customizacao-ferias\documentation" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -78,7 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PlatformClient">
+  <component name="RunManager" selected="JUnit.All in tutorial-customizacao-ferias">
     <configuration name="PlatformClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.senior.custom.vacationmanagement.platform.PlatformClient" />
       <module name="tutorial-customizacao-ferias" />
@@ -157,8 +164,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PlatformClient" />
         <item itemvalue="JUnit.All in tutorial-customizacao-ferias" />
+        <item itemvalue="Application.PlatformClient" />
         <item itemvalue="JUnit.ValidatorServiceTest.validate" />
         <item itemvalue="JUnit.MaxDayRequestValidatorServiceTest.handleValidation_conversionError" />
         <item itemvalue="JUnit.ValidateVacationScheduleCustomHandlerTest.customValidateVacationSchedule_exception" />

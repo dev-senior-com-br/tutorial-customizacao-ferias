@@ -1,14 +1,20 @@
 # Customização - Validação de Férias      
       
-Projeto exemplo de customização da validação de férias da Senior.      
+Projeto exemplo usado no [tutorial](link do turial localizado no senior.dev) de customização da validação de férias da Senior.      
       
-## Pré requisitos    
+# Pré requisitos    
 
 * Java 1.8 ou superior
 * Maven
       
+# Importando o projeto:
+
+* [Importar projeto no Eclipse](documentation/ImportProjectEclipse.md)
+* [Importar projeto no IntelliJ](documentation/ImportProjectIntelliJ.md)
+
 # Projeto
- Esse projeto permite a customização da validação de férias com as seguintes funcionalidades:
+
+Esse projeto permite a customização da validação de férias com as seguintes funcionalidades:
 
 ### Adicionando uma nova mensagem de erro
 * Para adicionar uma mensagem de erro nova, deve-se usar o método `addValidationMessage()` localizado na classe package-private `ValidationMessageService` passando como parâmetro as mensagens de erros atuais, a solicitação de férias e a nova mensagem.
