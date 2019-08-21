@@ -1,9 +1,0 @@
-
-[
-squid:S106+"9Replace this use of System.out or System.err by a logger.(›‘ôøÿÿÿÿ8ìÆªùÊ-
-asquid:S3752">Add a "method" parameter to this "@RequestMapping" annotation.(Í¹‹£øÿÿÿÿ8ìÆªùÊ-
-V
-squid:S106("9Replace this use of System.out or System.err by a logger.(ï‹¯›8ìÆªùÊ-
-psquid:UselessImportCheck"@Remove this unused import 'org.springframework.http.HttpStatus'.(íŸ¤Šúÿÿÿÿ8ãµºùÊ-
-~squid:UselessImportCheck
-"SRemove this unused import 'org.springframework.web.bind.annotation.ResponseStatus'.(¯×ñ8ãµºùÊ-
