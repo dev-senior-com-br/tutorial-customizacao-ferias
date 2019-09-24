@@ -1,6 +1,6 @@
 # Customização - Validação de Férias      
       
-Projeto exemplo usado no [tutorial](https://dev.senior.com.br/documentacao/criando-a-extensao/) de customização da validação de férias da Senior.      
+Projeto exemplo usado no [tutorial](https://dev.senior.com.br/customizacao-validacao-de-ferias/) de customização da validação de férias da Senior.      
       
 # Pré requisitos    
 
